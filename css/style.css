@@ -271,6 +271,7 @@ h2 {
   top: 1016px;
   gap: 0px;
   opacity: 0px;
+display: block;
 }
 
 h3 {
@@ -290,6 +291,7 @@ p {
 
 .portfolio {
   background-color: #ffffff;
+  display: block;
 
 
 }
