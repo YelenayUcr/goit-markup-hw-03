@@ -84,12 +84,7 @@ a .title{
 
 body {
   font-family: "Roboto", sans-serif;
-  width: 1440px;
-  height: 3300px;
-  top: -1169px;
-  left: 370px;
-  gap: 0px;
-  opacity: 0px;
+
 }
 .title-about {
   background-color: #ffffff;
@@ -204,6 +199,8 @@ padding: 24px 0;
 .ul-about {
   padding-top: 120px;
   padding-bottom: 120px;
+    background-color: #f4f4fd;
+
 }
 .ul-about .container {
   margin-left: 156px;
@@ -294,15 +291,7 @@ h2 {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.ul-about {
-  background-color: #f4f4fd;
-  width: 1440px;
-  height: 732px;
-  top: 1016px;
-  gap: 0px;
-  opacity: 0px;
-display: block;
-}
+
 
 h3 {
   color: #2e2f42;
@@ -344,15 +333,18 @@ p {
 
 .footer-title {
   color: #4d5ae5;
+  display: inline-block;
   text-decoration: none;
   list-style-type: none;
-  font-family: Raleway;
+  font-family: Roboto;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.3125em;
   letter-spacing: 0.03em;
   text-align: left;
   margin-left: 156px;
+  margin-bottom: 16px;
+  
 }
 
 .footer-studio {
@@ -372,7 +364,7 @@ p {
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.02em;
-  width: 264px;
+max-width: 264px;
   height: 112px;
   top: 3088px;
   left: 156px;
@@ -382,10 +374,10 @@ p {
 }
 .footer-about {
   background-color: #2e2f42;
-  width: 1440px;
+padding: 100px 0;
   height: 312px;
-  top: 2988px;
+
   gap: 0px;
   opacity: 0px;
-  padding-top: 100px;
+ 
 }
