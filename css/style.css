@@ -287,21 +287,10 @@ p {
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
-.section-our-portfolio {
-  width: 1128px;
-  height: 1000px;
-  top: 1868px;
-  left: 156px;
-  gap: 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-  margin-top: 120px;
-  margin-left: 156px;
-  list-style: none;
-  
-}
+
 .portfolio {
   background-color: #ffffff;
+
 
 }
 .page-portfolio {
@@ -309,23 +298,17 @@ p {
   margin-top: 72px;
   display: flex;
   list-style: none;
+    width: 1128px;
+        height: 1000px;
+        top: 1868px;
+        left: 156px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        margin-top: 120px;
+        margin-left: 156px;
+        list-style: none;
 
-
-}
-.portfolio-second{
-    display: flex;
-    flex-direction: row;
-    gap: 32px;
-
-}
-.banking-app{
-
-    margin-bottom: 48px;
-}
-
-    
-        
-      
+}        
 
 .footer-title {
   color: #4d5ae5;
