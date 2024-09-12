@@ -26,42 +26,60 @@ ul {
   list-style: none;
 }
 
-
+img{
+    display: block;
+}
 header {
-  border-bottom-left-radius: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 
  
 }
-.header-about {
+a .title{
+    margin-right: 76px;
+}
+
+.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 156px;
-  width: 1440px;
-  height: 72px;
+  margin: 0 auto;
+  padding: 0 15px;  
+  width: 1158px
+
 
 }
-.header-about .container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  margin-right: 156px;
+.container .header-about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-right: 156px;
 
 }
+
 .container .address-about {
-  display: flex;
-  padding-right: 156px;
+    display: flex;
+  
 }
 
 .ul-about1 {
-  display: flex;
-  gap: 40px;
-  margin-left: 76px;
-  margin-right: 76px;
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+   
+
+}
+.header-div{
+    display: flex;
+    margin-bottom: 24px;
+    margin-top: 24px;
 }
 .address-about {
-  display: flex;
-  gap: 21px;
+    display: flex;
+    
+}
+.nav-about{
+    display: flex;
+    align-items: center;
 }
 
 body {
@@ -96,20 +114,31 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
 }
-h1 {
-  text-align: center;
+.section-main-title{
+    padding: 188px 0;
+}
+.h1-about {
+    align-items: center;
+        justify-content: space-between;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   font-size: 56px;
   letter-spacing: 2%;
   color: #ffffff;
-  width: 496px;
   height: 120px;
   top: 260px;
   left: 472px;
   gap: 0px;
   opacity: 0px;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 .button-about {
+        align-items: center;
+            justify-content: space-between;
+    display: block;
+    margin:0 auto;
   background-color: #4d5ae5;
   color: #ffffff;
   font-size: 16px;
@@ -118,20 +147,16 @@ h1 {
   cursor: pointer;
   padding: 16px 32px 16px 32px;
   gap: 10px;
+min-width: 169px;
+height: 56px;
+border: none;
+border-radius: 4px;
 }
 .button-about:hover {
   background-color: #404bbf;
 }
 .section-main-title {
-  text-align: center;
   background-color: #2e2f42;
-  align-self: auto;
-  width: 1440px;
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .title {
@@ -142,12 +167,17 @@ h1 {
   line-height: 1.5em;
   letter-spacing: 0.02em;
   cursor: pointer;
+padding: 24px 0;
 }
 .title:hover {
   color: #404bbf;
 }
 .title1:active {
   color: #404bbf;
+}
+.mail-tel{
+    display: flex;
+    gap: 40px;
 }
 .address {
   text-decoration: none;
