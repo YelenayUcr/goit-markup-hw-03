@@ -24,10 +24,41 @@ li {
 ol,
 ul {
   list-style: none;
+ 
 }
 
 img{
     display: block;
+}
+h2 {
+  color: #2e2f42;
+  background-color: #f4f4fd;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 2.5em;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 72px;
+
+
+}
+
+
+h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+p {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
 }
 header {
   border-bottom: 1px solid #e7e9fc;
@@ -39,13 +70,10 @@ a .title{
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
   margin: 0 auto;
   padding: 0 15px;  
   width: 1158px
-
 
 }
 .container .header-about {
@@ -54,11 +82,6 @@ a .title{
     align-items: baseline;
     margin-right: 156px;
 
-}
-
-.container .address-about {
-    display: flex;
-  
 }
 
 .ul-about1 {
@@ -75,6 +98,8 @@ a .title{
 }
 .address-about {
     display: flex;
+      align-items: center;
+      justify-content: space-between;
     
 }
 .nav-about{
@@ -110,28 +135,23 @@ body {
   text-align: left;
 }
 .section-main-title{
-    padding: 188px 0;
+  background-color: #2e2f42;
+  padding: 188px 0;
+  margin: 0 auto;
 }
 .h1-about {
-    align-items: center;
-        justify-content: space-between;
+  align-items: center;
+  text-align: center;
     display: block;
     margin: 0 auto;
-    text-align: center;
   font-size: 56px;
   letter-spacing: 2%;
   color: #ffffff;
-  height: 120px;
-  top: 260px;
-  left: 472px;
-  gap: 0px;
-  opacity: 0px;
-  margin-bottom: 48px;
   max-width: 496px;
+  margin-bottom: 48px;
 }
 .button-about {
-        align-items: center;
-            justify-content: space-between;
+  align-items: center;
     display: block;
     margin:0 auto;
   background-color: #4d5ae5;
@@ -141,19 +161,13 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   padding: 16px 32px 16px 32px;
-  gap: 10px;
-min-width: 169px;
-height: 56px;
+  min-width: 169px;
 border: none;
 border-radius: 4px;
 }
 .button-about:hover {
   background-color: #404bbf;
 }
-.section-main-title {
-  background-color: #2e2f42;
-}
-
 .title {
   text-decoration: none;
   color: #2e2f42;
@@ -190,10 +204,12 @@ padding: 24px 0;
 .section .container {
   text-align: left;
   display: flex;
-  margin-left: 156px;
-  margin-right: 156px;
+
   margin-bottom: 120px;
   margin-top: 120px;
+  align-items: center;
+  
+
 }
 .name {
   text-align: center;
@@ -229,62 +245,57 @@ border-top-left-radius: 0px;
     width: calc((100% - 72px) / 4);
    
 }
-
-
-ul {
+ul{
+  display: flex;
+  list-style-type: none;
+}
+.section .container ul{
+  list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+.ul-about .container ul {
   list-style-type: none;
   display: flex;
   gap: 24px;
-}
-
-h2 {
-  color: #2e2f42;
-  background-color: #f4f4fd;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 2.5em;
-  letter-spacing: 0.02em;
-  text-align: center;
-  margin-bottom: 72px
-  
   
 }
-
-
-h3 {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.5em;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-p {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5em;
-  letter-spacing: 0.02em;
-}
-.container h2{
-  margin-bottom: 72px;
-}
-.portfolio {
-  background-color: #ffffff;
-  display: block;
-text-align: center;
+.container .portfolio ul{
+    list-style-type: none;
+      display: flex;
+    
+      align-items: center;
+      
 
 }
-.container .portfolio {
-  gap: 32px;
-  display: flex;
-  list-style: none;
-  flex-wrap: wrap;
+.our-li{
+  width: calc((100% - 72px) / 4);
+
  
+    
+}
+.our-div{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+ 
+}
+
+.container h2{
+      margin-top: 120px;
+      text-align: center;
+}
+
+.container .portfolio {
+    background-color: #ffffff;
+  gap: 32px;
+
+
 
 }        
 
-.footer-title {
+.footer-about .container .footer-title {
   color: #4d5ae5;
   display: inline-block;
   text-decoration: none;
@@ -294,9 +305,8 @@ text-align: center;
   font-weight: 700;
   line-height: 1.3125em;
   letter-spacing: 0.03em;
-  text-align: left;
-  margin-left: 156px;
   margin-bottom: 16px;
+ 
   
 }
 
@@ -309,9 +319,9 @@ text-align: center;
   font-weight: 700;
   line-height: 1.3125em;
   letter-spacing: 0.03em;
-  text-align: left;
+ 
 }
-.footer-p {
+.container .footer-p {
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
@@ -320,17 +330,16 @@ text-align: center;
 max-width: 264px;
   height: 112px;
   top: 3088px;
-  left: 156px;
   gap: 0px;
   opacity: 0px;
-  margin-left: 156px;
+
+  
 }
 .footer-about {
   background-color: #2e2f42;
-padding: 100px 0;
+  padding: 100px 0;
   height: 312px;
-
   gap: 0px;
   opacity: 0px;
- 
+  
 }
