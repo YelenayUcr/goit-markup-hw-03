@@ -213,27 +213,17 @@ padding: 24px 0;
   
 
 }
-.name {
+.ul-about .name {
   text-align: center;
   margin-bottom: 8px;
   margin-top: 32px;
 }
 
-.job {
+.ul-about .job {
   text-align: center;
 }
-.ul-about {
-    padding: 120px 0;
-    background-color: #f4f4fd;
-  
 
-}
-.ul-about .container {
-  display: flex;
-  text-align: center;
-
-}
-.li-about {
+.ul-about .li-about {
   padding: 0px 0px 32px 0px;
 border-top-left-radius: 0px;
   border-top-right-radius: 0px;
@@ -251,37 +241,39 @@ ul{
   display: flex;
   list-style-type: none;
 }
-.section .container ul{
-  list-style-type: none;
-    display: flex;
-    gap: 24px;
+.ul-about {
+  background-color: #f4f4fd;
+}
+.ul-about .team-title{
+  text-align: center;
+  margin-bottom: 72px
 }
 .ul-about .container ul {
   list-style-type: none;
   display: flex;
   gap: 24px; 
+  padding-bottom: 120px;
 }
-
-.container .portfolio ul{
+.section-portfolio{
+  padding: 120px 0;
+}
+.portfolio-ul{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;    
-}
-.our-li{
-  width: calc((100% - 72px) / 4);   
+    flex-wrap: wrap;  
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
+
 .our-div{
-  padding: 32px 16px;
+  padding: 32px 0;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
 }
 
-.container h2{
-      margin-top: 120px;
-      text-align: center;
-}
+
 
 .container .portfolio {
   background-color: #ffffff;
