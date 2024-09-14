@@ -44,7 +44,7 @@ h2 {
 }
 
 
-h3 {
+.section-h3 {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -62,44 +62,33 @@ p {
 }
 header {
   border-bottom: 1px solid #e7e9fc;
-
- 
 }
 .container {
-
   margin: 0 auto;
   padding: 0 15px;  
   width: 1158px
-
 }
-.header-about{
+.header-nav{
   display: flex;
-        align-items: center;
-          justify-content: space-between;
-}
-.header-about .title-about{
-display: flex;
   align-items: center;
-
-  
+}
+.header-nav .title-about {
+  margin-right: 76px;
 }
 .header-about .container{
 display: flex;
   align-items: center;
 }
-.header-about .nav-about{
-  display: flex;
-  align-items: center;
-}
-.nav-about .title{
-  margin-right: 76px;
+
+.header-nav .title{
     display: flex;
 }
-.nav-about .ul-about1{
+.header-nav .ul-about1{
 display: flex;
 gap: 40px;
+margin-right: 332px;
 }
-.nav-about .header-li{
+.header-nav .header-li{
   padding: 24px 0;
     display: flex;
 }
@@ -111,7 +100,8 @@ gap: 40px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
   cursor: pointer;
-    display: flex;
+
+   
 
 }
 
@@ -128,8 +118,6 @@ gap: 40px;
 }
 .address-div  {
   display: flex;
-     
-          display: flex;
             align-items: center;
 
 
@@ -247,17 +235,17 @@ width: calc((100% - 72px) / 4);
 }
 .ul-about .name {
   text-align: center;
-  margin-bottom: 8px;
-  margin-top: 32px;
-}
 
+}
+.container .team-div{
+  padding: 32px 0;
+}
 .ul-about .job {
   text-align: center;
 }
 
 .ul-about .li-about {
   border-radius: 0px 0px 4px 4px;
-  padding: 0px 0px 32px 0px;
   opacity: 0px;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   box-shadow: 0px 1px 1px 0px #2e2f4229;
@@ -276,7 +264,7 @@ ul{
 }
 .ul-about .team-title{
   text-align: center;
-  margin-bottom: 72px
+  margin-bottom: 72px;
 }
 .ul-about .team-ul {
   list-style-type: none;
