@@ -65,10 +65,6 @@ header {
 
  
 }
-a .title{
-    margin-right: 76px;
-}
-
 .container {
 
   margin: 0 auto;
@@ -76,37 +72,82 @@ a .title{
   width: 1158px
 
 }
- .header-about .container{
+.header-about{
+  display: flex;
+        align-items: center;
+          justify-content: space-between;
+}
+.header-about .title-about{
+display: flex;
+  align-items: center;
+
+  
+}
+.header-about .container{
+display: flex;
+  align-items: center;
+}
+.header-about .nav-about{
+  display: flex;
+  align-items: center;
+}
+.nav-about .title{
+  margin-right: 76px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    
+}
+.nav-about .ul-about1{
+display: flex;
+gap: 40px;
+}
+.nav-about .header-li{
+  padding: 24px 0;
+    display: flex;
+}
+.title {
+  text-decoration: none;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+    display: flex;
+
+}
+
+.title:hover {
+  color: #404bbf;
+}
+
+.title:active {
+  color: #404bbf;
+}
+.address-div .mail-tel{
+  gap: 40px;
+
+}
+.address-div  {
+  display: flex;
+     
+          display: flex;
+            align-items: center;
 
 
 }
 
-.ul-about1 {
-    display: flex;
-    gap: 40px;
-    margin-left: 76px;
-   
+.address {
+  text-decoration: none;
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  cursor: pointer;
 
 }
-.header-div{
-    display: flex;
-    margin-bottom: 24px;
-    margin-top: 24px;
-}
-.address-about {
-    display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-left: 332px;
-    
-}
-.nav-about{
-    display: flex;
-    align-items: center;
+
+.address:hover {
+  color: #404bbf;
 }
 
 body {
@@ -123,7 +164,8 @@ body {
   font-weight: 700;
   line-height: 1.3125;
   letter-spacing: 0.03em;
-  text-align: left;
+
+ 
 }
 .studio {
   color: #2e2f42;
@@ -134,14 +176,27 @@ body {
   font-weight: 700;
   line-height: 1.3125;
   letter-spacing: 0.03em;
-  text-align: left;
+
+
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .section-main-title{
   background-color: #2e2f42;
   padding: 188px 0;
   margin: 0 auto;
 }
-.h1-about {
+.section-main-title .h1-about {
   align-items: center;
   text-align: center;
     display: block;
@@ -170,48 +225,25 @@ border-radius: 4px;
 .button-about:hover {
   background-color: #404bbf;
 }
-.title {
-  text-decoration: none;
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5em;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-padding: 24px 0;
-}
-.title:hover {
-  color: #404bbf;
-}
-.title1:active {
-  color: #404bbf;
-}
-.mail-tel{
-    display: flex;
-    gap: 40px;
-}
-.address {
-  text-decoration: none;
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5em;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  display: flex;
-}
-.address:hover {
-  color: #404bbf;
+
+.section{
+  padding: 120px 0;
 }
 .section .container {
   text-align: left;
   display: flex;
-
-  margin-bottom: 120px;
-  margin-top: 120px;
   align-items: center;
-  
 
+}
+.section-ul{
+  display: flex;
+  gap: 24px;
+}
+.section-li{
+width: calc((100% - 72px) / 4);
+}
+.section .section-h3{
+  margin-bottom: 8px;
 }
 .ul-about .name {
   text-align: center;
@@ -224,11 +256,8 @@ padding: 24px 0;
 }
 
 .ul-about .li-about {
+  border-radius: 0px 0px 4px 4px;
   padding: 0px 0px 32px 0px;
-border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-top-right-radius: 4px;
-  border-bottom-left-radius: 4px;
   opacity: 0px;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   box-shadow: 0px 1px 1px 0px #2e2f4229;
@@ -243,16 +272,17 @@ ul{
 }
 .ul-about {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .ul-about .team-title{
   text-align: center;
   margin-bottom: 72px
 }
-.ul-about .container ul {
+.ul-about .team-ul {
   list-style-type: none;
   display: flex;
   gap: 24px; 
-  padding-bottom: 120px;
+  
 }
 .section-portfolio{
   padding: 120px 0;
@@ -267,7 +297,7 @@ ul{
 
 
 .our-div{
-  padding: 32px 0;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
