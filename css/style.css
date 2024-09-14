@@ -76,11 +76,12 @@ a .title{
   width: 1158px
 
 }
-.container .header-about {
+ .header-about .container{
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    margin-right: 156px;
+    
+
 
 }
 
@@ -100,6 +101,7 @@ a .title{
     display: flex;
       align-items: center;
       justify-content: space-between;
+      margin-left: 332px;
     
 }
 .nav-about{
@@ -257,29 +259,23 @@ ul{
 .ul-about .container ul {
   list-style-type: none;
   display: flex;
-  gap: 24px;
-  
+  gap: 24px; 
 }
-.container .portfolio ul{
-    list-style-type: none;
-      display: flex;
-    
-      align-items: center;
-      
 
+.container .portfolio ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;    
 }
 .our-li{
-  width: calc((100% - 72px) / 4);
-
- 
-    
+  width: calc((100% - 72px) / 4);   
 }
+
 .our-div{
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
- 
 }
 
 .container h2{
@@ -288,11 +284,7 @@ ul{
 }
 
 .container .portfolio {
-    background-color: #ffffff;
-  gap: 32px;
-
-
-
+  background-color: #ffffff;
 }        
 
 .footer-about .container .footer-title {
